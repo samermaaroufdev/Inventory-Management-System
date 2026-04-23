@@ -8,3 +8,6 @@
 .card-link:visited{
     color:purple;
 }
+.card{
+    width:18rem;
+}
