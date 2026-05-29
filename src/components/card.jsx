@@ -1,5 +1,4 @@
 import {Link} from 'react-router-dom'
-
 const Card=({name,description,image,path})=>{
     return (
         <div className='card h-100'>
