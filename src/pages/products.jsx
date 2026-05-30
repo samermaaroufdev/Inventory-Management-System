@@ -1,21 +1,16 @@
-import Card from '../components/card'
+import Card from '../components/Card'
 import '../style/products.css'
 import image1 from '../assets/asus-zenbook-14x-laptop-ponder-blue.jpg'
-import image2 from '../assets/RZ09-05299ER4-R3U1-2.webp'
 import image3 from '../assets/18-Area-51-AA18250-9.webp'
-import image4 from '../assets/msi-laptop-katana-b14wgk-016us-i9-14900hx-32gb-ram-1tb-ssd-nvme-nvidia-rtx5070-156-2560-x-1440-165hz-win11-original.webp'
 import image5 from '../assets/e64a02d7-b966-41ce-80e1-80271e6ea142-Recoveredxhz-jpg.avif'
-import image6 from '../assets/bda1c42137da4db1847dbf264ff89f5c-Original.jpg'
 import image7 from '../assets/tv-monitor-samsung-cu8000-monitor.jpg'
-import image8 from '../assets/RedmiWatch5.webp'
-import image9 from '../assets/luna-pro-smartwatch-179578.webp'
-import image10 from '../assets/1-84.webp' 
 export const cardObj=[
     {
         name:"Asus Zenbook",
         description:`A premium, ultraportable laptop line that combines sleek design with solid performance.
         Built for professionals, students, and creatives,its lightweight, feature distinctive spun-metal finishes, and have narrow screen bezels defines modern look.`,
         image:image1,
+        alt:'Asus Zenbook',
         path:'/ProductDetails1',
         id:'#PRD-101',
         quantity:45,
@@ -27,7 +22,8 @@ export const cardObj=[
         name:"Razor Blade 18",
         description:`The ultimate desktop replacement, reengineered for total domination.
         Massive screen, metal build, and uncompromising power — all packed into a surprisingly portable frame.`,
-        image:image2,
+        image:'https://jakcomputer.com/cdn/shop/files/RZ09-05299ER4-R3U1-2.webp?v=1775814657&width=713',
+        alt:'Razor Blade 18',
         path:'/ProductDetails2',
         id:'#PRD-102',
         quantity:20,
@@ -39,6 +35,7 @@ export const cardObj=[
         description:`Legendary design meets monstrous performance. 
         Built from the ground up for hardcore gamers and power users who refuse to settle.`,
         image:image3,
+        alt:'Dell Alienware 18',
         path:'/ProductDetails3',
         id:'#PRD-103',
         quantity:33,
@@ -49,7 +46,8 @@ export const cardObj=[
         name:"MSI Katana",
         description:`Sharp looks, sharper performance.
         Engineered for gamers who want battle-ready gear without breaking the bank.`,
-        image:image4,
+        image:'https://distiplus.net/13363-large_default/msi-laptop-katana-b14wgk-016us-i9-14900hx-32gb-ram-1tb-ssd-nvme-nvidia-rtx5070-156-2560-x-1440-165hz-win11-original.jpg',
+        alt:'MSI Katana',
         path:'/ProductDetails4',
         id:'#PRD-104',
         quantity:61,
@@ -71,7 +69,8 @@ export const cardObj=[
         name:"Redmi Note 15",
         description:`Big features, bigger value.
         Built for the everyday user who wants reliability without the flagship price tag.`,
-        image:image6,
+        image:'https://storage-cdn-01.myecomz.com/assets/privato-mobile/Product/bda1c42137da4db1847dbf264ff89f5c-Original.jpg',
+        alt:'Redmi Note 15',
         path:'/ProductDetails6',
         id:'#PRD-106',
         quantity:30,
@@ -93,7 +92,8 @@ export const cardObj=[
         name:"Redmi Watch 5",
         description:`Sleek, lightweight, and built for an active lifestyle.
         Track your steps, monitor your heart, and stay connected with notifications right on your wrist — all without breaking the bank.`,
-        image:image8,
+        image:'https://clemarkets.com/cdn/shop/files/RedmiWatch5.jpg?v=1771498633&width=990',
+        alt:'Redmi Watch 5',
         path:'/ProductDetails8',
         id:'#PRD-108',
         quantity:42,
@@ -104,7 +104,8 @@ export const cardObj=[
         name:"Luna Pro Smartwatch",
         description:`Elegance that works as hard as you do.
         Stay connected, track your fitness, and look good doing it — all day, every day.`,
-        image:image9,
+        image:'https://thenorthtime.com/cdn/shop/files/luna-pro-smartwatch-179578.png?v=1741455878&width=990',
+        alt:'Luna Pro Smartwatch',
         path:'/ProductDetails9',
         id:'#PRD-109',
         quantity:10,
@@ -115,7 +116,8 @@ export const cardObj=[
         name:"Tecno Spark 20 pro",
         description:`Capture the moment, stream your favorites, and stay connected
         — all with effortless ease. Fresh. Fast. Fabulous.`,
-        image:image10,
+        image:'https://www.dslr-zone.com/wp-content/uploads/2024/06/1-84.jpg',
+        alt:'Tecno Spark 20 pro',
         path:'/ProductDetails10',
         id:'#PRD-110',
         quantity:17,
@@ -136,6 +138,7 @@ const Products=()=>{
                     name={product.name}
                     description={product.description}
                     image={product.image}
+                    alt={product.alt}
                     path={product.path}
                     />
                 </div>

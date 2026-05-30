@@ -4,7 +4,7 @@ const Table = ({image,pid,pname,quantity,supplier,date})=>{
         <div className="container text-center">
         <div className="row">
             <div className="col-12">
-                <img src={image}/>
+                <img src={image} style={{width:"30%"}}/>
             </div>
         </div>
         <div className="row justify-content-center">

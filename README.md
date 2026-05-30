@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# Inventory Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+The Inventory Management System is a React-based web application that allows users to manage product information through an intuitive user interface. The application provides functionality for adding products, validating user input, displaying product information, and giving feedback through modal dialogs.
 
-In the project directory, you can run:
+This project was developed as a frontend application using React and Bootstrap to demonstrate modern web development concepts such as component-based architecture, state management, props, event handling, and form validation.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Add new products
+* Form validation
+* Product Listing
+* Bootstrap modal confirmation messages
+* Responsive user interface
+* Component-based React architecture
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+* React
+* JavaScript
+* HTML
+* CSS
+* Bootstrap
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation and Setup
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure the following are installed:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Node.js
+* npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clone the Repository
 
-### `npm run eject`
+```bash
+git clone <repository-url>
+cd inventory-management-system
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Install Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Start the Development Server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```text
+src/
+├── assets/
+│ ├── 1-84.webp
+│ ├── 18-Area-51-AA18250-9.webp
+│ ├── asus-zenbook-14x-laptop-ponder-blue.jpg
+│ ├── bda1c42137da4db1847dbf264ff89f5c-Ori...
+│ ├── e64a02d7-b966-41ce-80e1-80271e6ea142...
+│ ├── luna-pro-smartwatch-179578.webp
+│ ├── msi-laptop-katana-b14wgk-016us-i9-1490...
+│ ├── RedmiWatch5.webp
+│ ├── RZ09-05299ER4-R3U1-2.webp
+│ └── tv-monitor-samsung-cu8000-monitor.jpg
+│
+├── components/
+│ ├── Card.jsx
+│ ├── Navbar.jsx
+│ └── Table.jsx
+│
+├── pages/
+│ ├── AddProduct.jsx
+│ ├── Home.jsx
+│ ├── Products.jsx
+│ ├── ProductDetails1.jsx
+│ ├── ProductDetails2.jsx
+│ ├── ProductDetails3.jsx
+│ ├── ProductDetails4.jsx
+│ ├── ProductDetails5.jsx
+│ ├── ProductDetails6.jsx
+│ ├── ProductDetails7.jsx
+│ ├── ProductDetails8.jsx
+│ ├── ProductDetails9.jsx
+│ └── ProductDetails10.jsx
+│
+└── style/
+├── home.css
+├── navbar.css
+├── products.css
+└── product_details.css
+├── App.js
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## React Concepts Implemented
 
-### Code Splitting
+* Functional Components
+* Props
+* useState Hook
+* Event Handling
+* Conditional Rendering
+* Form Validation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Future Improvements
 
-### Analyzing the Bundle Size
+* Product editing functionality
+* Product deletion functionality
+* Search and filtering
+* Backend integration
+* Persistent data storage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Samer Maarouf and Mohammad Dirawi
